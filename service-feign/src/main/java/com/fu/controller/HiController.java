@@ -16,11 +16,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class HiController {
 
     @Autowired
-    private ScheduleServiceHi schedualServiceHi;
+    private ScheduleServiceHi scheduleServiceHi;
 
     @RequestMapping(value = "/hi",method = RequestMethod.GET)
     public String sayHi(@RequestParam String name){
-        return schedualServiceHi.sayHiFromClientOne(name);
+        return scheduleServiceHi.sayHiFromClientOne(name);
     }
 
 }
