@@ -11,7 +11,6 @@
         <module name="service-feign" />
         <module name="service-ribbon" />
         <module name="sevice-feign" />
-        <module name="springcloud" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,7 +19,7 @@
       <module name="service-feign" target="1.8" />
       <module name="service-ribbon" target="1.8" />
       <module name="sevice-feign" target="1.8" />
-      <module name="springcloud" target="1.5" />
+      <module name="springcloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
