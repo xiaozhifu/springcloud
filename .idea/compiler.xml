@@ -10,6 +10,7 @@
         <module name="server" />
         <module name="service-feign" />
         <module name="service-ribbon" />
+        <module name="service-zuul" />
         <module name="sevice-feign" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
       <module name="server" target="1.8" />
       <module name="service-feign" target="1.8" />
       <module name="service-ribbon" target="1.8" />
+      <module name="service-zuul" target="1.8" />
       <module name="sevice-feign" target="1.8" />
       <module name="springcloud" target="1.8" />
     </bytecodeTargetLevel>
